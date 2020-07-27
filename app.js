@@ -32,7 +32,7 @@ const getImageUrl = (originalUrl, width = '100', height = '100', quality = '80',
     ) || { mediaUrl: "" };
     const posterUrl = slots[index].widget.data.contentDetailsComponent.value.thumbnailImage.dynamicImageUrl;
     //source.src = supportedVideo.mediaUrl;
-	  source.src = 'http://www.bok.net/dash/tears_of_steel/cleartext/stream.mpd';
+	  source.src = 'https://www.bok.net/dash/tears_of_steel/cleartext/stream.mpd';
     source.type = "application/dash+xml";
     videoElement.autoplay = false;
     videoElement.preload = true;
